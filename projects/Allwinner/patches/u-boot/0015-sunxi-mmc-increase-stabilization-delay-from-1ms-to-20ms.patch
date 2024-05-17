@@ -31,13 +31,13 @@ return -ETIMEDOUT;
 
 Signed-off-by: Da Xue <da@libre.computer>
 ---
- drivers/mmc/sunxi_mmc.c | 2 +-
+ drivers/mmc/host/sunxi_mmc.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/drivers/mmc/sunxi_mmc.c b/drivers/mmc/sunxi_mmc.c
+diff --git a/drivers/mmc/host/sunxi_mmc.c b/drivers/mmc/host/sunxi_mmc.c
 index 1bb7b6d0e9..f7942b69ce 100644
---- a/drivers/mmc/sunxi_mmc.c
-+++ b/drivers/mmc/sunxi_mmc.c
+--- a/drivers/mmc/host/sunxi_mmc.c
++++ b/drivers/mmc/host/sunxi_mmc.c
 @@ -297,7 +297,7 @@ static int sunxi_mmc_core_init(struct mmc *mmc)
  
  	/* Reset controller */
